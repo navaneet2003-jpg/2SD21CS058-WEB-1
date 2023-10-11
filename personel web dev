@@ -1,0 +1,162 @@
+1] Index.html
+<!doctype html>
+    <meta.name ="author" content="index">
+    <title>
+           Welcome 
+    </title>
+
+    <body  background="4.jpg" bgcolor="Blue" >
+        
+            <center><img src="myself.jpg" height=180px width=180px></img> &nbsp;&nbsp;&nbsp;&nbsp;<td><h1><u><font color="white">WELCOME TO MY HOME PAGE</font></h1></u></td>
+            <hr/>
+            <h3> <a href="./profile.html"><font color ="violet"> My Profile </font></a></h3>
+            <a href="./gradesheet.html"><font color ="violet"> My Academic Record</font></a><br/><br/>
+            <a href="./form.html"><font color="violet">Personel Form </font></a>
+        </center>
+        
+        <center><table cellspacing="50" width="100%">
+            <tr>
+                <td><img src="10.jpg" alt="left image" width="100%"></td>
+                <td><img src="9.jpg" alt="left image" width="100%"></td>
+                <td><img src="11.jpg" alt="left image" width="100%"></td>
+            </tr>
+        </table>
+    </center>
+    </body>
+</html>
+
+2] Gradesheet.html
+<html>
+    <body bgcolor="#457898"> 
+    <br/>
+        <h1><center>  <u><b><font color="black">THIS TABLE SHOWS ABOUT MY ACADAMICS RECORD</font></b></u></center></h1>
+        <hr/>
+        <br/>
+        <br/>
+        <center>
+           
+        <table border ="1" cellspacing="5" bgcolor="#878f99">
+            <tr>
+                <th> Sl.No</th>
+                <th> Semester</th>
+                <th>SGPA</th>
+            </tr>
+            <tr>
+                <td> 01</td>
+                <td>1st</td>
+                <td> 7.7</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>2nd</td>
+                <td>8.9</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>3rd</td>
+                <td>8.22</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>4th</td>
+                <td>8.89</td>
+            </tr>
+        
+        </table>
+        <a href="./profile.html"> Back to home page </a>
+        </center>
+    </body>
+</html>
+
+3] Profile.html
+<!DOCTYPE html>
+    <body bgcolor=#e5eaf5>
+        <center>
+            <br/>
+            <h1> <font color="black">Navaneet N Pachalag </font></h1>
+            <br/>
+            <h3>
+                Student,3rd year<br/>
+                CSE Department<br/>
+                SDM Engineering College<br/>
+                Dharwad 580020
+            </h3>
+            <hr/>
+            <img src="myself.jpg" height =250px width=250px> </img>
+            <hr/>
+            <h4>
+                My Areas of intrest include 
+             <ul type = "1"><center>
+                    <li> C-Programming</li>
+                    <li> Web Technology</li>
+                    <li> Data Structures</li>
+                    <li> Software Engineering</li>
+                </center>   
+            </ul>
+            </h4>
+            <a href="./index.html">Back to Home Page</a>
+            
+        </center>
+    </body
+
+4] form.html
+
+<!DOCTYPE html >
+
+<head>
+    <title>Navaneet | Form</title>
+</head>
+<body bgcolor="teal">
+    
+    <center><h1>Kindly Fill This Form</h1></center>
+    <hr color="black">
+    <center><form action="https://drive.google.com/drive/u/0/folders/1X-z83aOMwpWqnKqAAcz5zl2OPoFvyuJw" method="post">
+        <table cellspacing="7">
+            <tr>
+                <td>First Name :</td>
+                <td><input type="text" id="fname" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name :</td>
+                <td><input type="text" id="lname" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth :</td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+            <tr>
+                <td>Favorite Color :</td>
+                <td><input type="color" id="fav-color"></td>
+            </tr>
+            <tr>
+                <td>Email Id :</td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td>
+                    <input type="radio" value="male" id="gender"><label>Male</label>&nbsp;
+                    <input type="radio" value="male" id="gender"><label>Female</label>&nbsp;
+                    <input type="radio" value="male" id="gender"><label>Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone Number :</td>
+                <td><input type="text" id="mobile-no" value="+91"></td>
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td><textarea id="address" cols="25" rows="3"></textarea></td>
+            </tr>
+            <tr></tr>  
+            <tr>
+                <td>&nbsp; <input type="submit" value="SUBMIT" ></td>
+                <td><input type="reset" value="RESET"></td>
+            </tr>
+        </table>
+    </form>
+    <br/>
+    <a href="index.html">Back to Home</a>
+</center>
+</body>
+</html>
